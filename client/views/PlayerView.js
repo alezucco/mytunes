@@ -3,7 +3,7 @@ var PlayerView = Backbone.View.extend({
 
   // HTML5 (native) audio tag is being used
   // see: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video
-  el: '<audio controls autoplay />',
+  el: '<iframe align="right" width="1500" height="600" frameborder="0" allowfullscreen></iframe>',
 
   initialize: function() {
 

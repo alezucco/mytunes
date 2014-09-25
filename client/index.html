@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <body>
+  <body >
     <!-- Scripts may be placed anywhere on a page. But FYI, they block rendering of elements
      below them until after the scripts load-->
     <script src="bower_components/jquery/jquery.min.js"></script>
@@ -20,20 +20,19 @@
     <script src="views/LibraryEntryView.js"></script>
     <script src="views/AppView.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="data/style.css">
     <script>
       $(function(){
         // set up model objects
-
-
         var library = new Songs(songData);
         var app = new AppModel({library: library});
 
-        // build a view for the top level of the whole app
         var appView = new AppView({model: app});
 
         // put the view onto the screen
         $('body').append(appView.render());
       });
     </script>
+<div class="container"></div>
   </body>
 </html>
