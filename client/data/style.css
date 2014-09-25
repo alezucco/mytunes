@@ -1,0 +1,19 @@
+
+body {
+    background: url("../data/back.jpg");
+}
+
+.songs {
+    background-color: #00ff00;
+    padding-left: 50px;
+    border-radius:10px;
+}
+
+.library {
+    background-color: orange;
+    padding-left: 50px;
+    border-radius:10px;
+}
+.video{
+  left: 50%;
+}
